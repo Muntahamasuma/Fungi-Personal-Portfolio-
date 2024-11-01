@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +13,9 @@
     --black : #212228;
     --white: #fff;
     --primary: #fd562a;
+    --secondary : #bf2902;
     --font-family : "Poppins", sans-serif;
+    --secendoy-font: "Open Sans", sans-serif;
     --font-size : 18px;
     --font-weight: 400;
 }
@@ -47,15 +51,41 @@ ul,ol,li{
     margin: 0;
 }
 
+.theme-btn{
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 40px;
+}
+.theme-btn:hover{
+    background-color: var(--secondary);
+}
+
+.theme-btn-border{
+    border: 2px solid var(--primary);
+    background-color: transparent;
+    padding: 10px 22px;
+}
+.theme-btn-border:hover{
+    background-color: var(--primary);
+}
 /* Common CSS end */
-
-
 
 /* Header CSS S */
 .header-section{
  width: 100%;
  background-color: var(--black);
  padding: 28px 0;
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 999;
 }
 .header-section .header-menu{
     display: flex;
@@ -103,3 +133,49 @@ ul,ol,li{
     color: var(--primary);
 }
 /* Header CSS E */
+
+/* Banner Css S */
+.banner-section{
+    background-color: var(--black);
+    height: 100vh;
+    padding: 250px 0
+}
+
+.banner-section .main{
+    display: flex;
+    align-items: center;
+    gap: 190px;
+}
+.banner-section .main .text{
+    color: var(--white);
+    
+}
+.banner-section .main .image{
+   width: 500px; 
+}
+.banner-section .main .image img{
+   width: 100%; 
+}
+.banner-section .main .text h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+.banner-section .main .text h1{
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 108px;
+}
+.banner-section .main .text p{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    font-family: var(--secendoy-font);
+}
+.banner-section .main .text h1 span{
+    color: var(--primary);
+}
+.banner-section .main .button-grp .theme-btn{
+    margin-left: 10px;
+}
+/* Banner Css E */
