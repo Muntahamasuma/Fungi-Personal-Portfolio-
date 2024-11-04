@@ -360,3 +360,38 @@ main{
     color: #bdb9cd;
 }
 /* Facts E */
+
+/* About-Me-section s */
+.About-Me-section .main{
+    display: flex;
+    gap: 190px;
+    align-items: center;
+}
+.About-Me-section .main h3{
+    color: var(--primary);
+    text-transform: uppercase;
+}
+.About-Me-section .main h1{
+    color: var(--black);
+    font-size: 48px;
+}
+.About-Me-section .main p{
+    color: var(--paragraph);
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.info{
+    display: flex;
+    gap: 100px;
+    margin-top: 10px;
+}
+.info h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.info {
+    font-size: 16px;
+    font-weight: 400;
+}
+/* About-Me-section E */
