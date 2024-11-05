@@ -395,3 +395,18 @@ main{
     font-weight: 400;
 }
 /* About-Me-section E */
+
+/* my skill S */
+.skill-text h3{
+    color: var(--primary);
+    text-transform: uppercase;
+}
+.skill-text h2{
+    color: var(--white);
+    font-size: 48px;
+}
+.skill-text p{
+    color: var(--paragraph);
+    font-weight: 400;
+}
+/* my skill E */
