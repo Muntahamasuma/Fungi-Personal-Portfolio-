@@ -1,0 +1,365 @@
+/* Header CSS S */
+.header-section {
+  width: 100%;
+  background-color: var(--black);
+  padding: 28px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.header-section .header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-section .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.header-section .menu .menu-item ul li {
+  margin-left: 35px;
+  position: relative;
+  display: inline-block;
+}
+
+.header-section .menu .menu-item ul li .sub-menu {
+  position: absolute;
+  background-color: var(--white);
+  width: 250px;
+  visibility: hidden;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  opacity: 0;
+}
+
+.header-section .menu .menu-item ul li:hover > .sub-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.header-section .menu .menu-item ul li .sub-menu li a {
+  color: var(--black);
+  /* margin-top: 10px; */
+  font-size: 16px;
+  padding: 10px 20px;
+  display: block;
+}
+
+.header-section .menu .menu-item ul li .sub-menu li a:hover {
+  background-color: var(--primary);
+  color: var(--white);
+  border-bottom: 1px solid #fff;
+}
+
+.header-section .menu .menu-item ul li .sub-menu li {
+  margin-left: 0;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.header-section .menu .menu-item ul li a {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: var(--white);
+}
+
+.header-section .menu .menu-item ul li:hover a {
+  color: var(--primary);
+}
+
+.header-section .menu .social-icon {
+  position: relative;
+  margin-left: 20px;
+}
+
+.header-section .menu .social-icon::after {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  width: 1px;
+  height: 25px;
+  content: "";
+  background-color: #f8f8ff;
+}
+
+.header-section .menu .social-icon a {
+  margin-left: 20px;
+  font-size: 18px;
+  color: var(--white);
+}
+
+.header-section .menu .social-icon a:hover {
+  color: var(--primary);
+}
+
+/* Header CSS E */
+/* Banner Css S */
+.banner-section {
+  background-color: var(--black);
+  height: 100vh;
+  padding: 250px 0;
+}
+
+.banner-section .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 190px;
+}
+
+.banner-section .main .text {
+  color: var(--white);
+}
+
+.banner-section .main .image {
+  width: 500px;
+}
+
+.banner-section .main .image img {
+  width: 100%;
+}
+
+.banner-section .main .text h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+.banner-section .main .text h1 {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 108px;
+}
+
+.banner-section .main .text p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  font-family: var(--secendoy-font);
+}
+
+.banner-section .main .text h1 span {
+  color: var(--primary);
+}
+
+.banner-section .main .button-grp .theme-btn {
+  margin-left: 10px;
+}
+
+/* Banner Css E */
+/* About-Me-section s */
+.About-Me-section .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 190px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.About-Me-section .main h3 {
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.About-Me-section .main h1 {
+  color: var(--black);
+  font-size: 48px;
+}
+
+.About-Me-section .main p {
+  color: var(--paragraph);
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+  margin-top: 10px;
+}
+
+.info h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.info {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* About-Me-section E */
+/* Welcome.....Start */
+main {
+  margin: 100px 0;
+}
+
+.intro-main .card-sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.intro-main .card-sections .card-1 {
+  border: 1px solid var(--paragraph);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.intro-main .card-sections .card-2 {
+  border: 1px solid var(--paragraph);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.intro-main .card-sections .card-3 {
+  border: 1px solid var(--paragraph);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.intro-main .card-sections .card-1 i {
+  font-size: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.intro-main .card-sections .card-2 i {
+  font-size: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.intro-main .card-sections .card-3 i {
+  font-size: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.intro-main .card-sections .card-1 i:hover {
+  color: var(--primary);
+}
+
+.intro-main .card-sections .card-2 i:hover {
+  color: var(--primary);
+}
+
+.intro-main .card-sections .card-3 i:hover {
+  color: var(--primary);
+}
+
+.intro-main .card-sections .card-1 h2 {
+  color: var(--black);
+  font-size: 28px;
+  font-weight: 600;
+  margin: 30px 0 20px 0;
+}
+
+.intro-main .card-sections .card-2 h2 {
+  color: var(--black);
+  font-size: 28px;
+  font-weight: 600;
+  margin: 30px 0 20px 0;
+}
+
+.intro-main .card-sections .card-3 h2 {
+  color: var(--black);
+  font-size: 28px;
+  font-weight: 600;
+  margin: 30px 0 20px 0;
+}
+
+.intro-main .card-sections .card-1 p {
+  font-family: var(--secendoy-font);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--paragraph);
+}
+
+.intro-main .card-sections .card-2 p {
+  font-family: var(--secendoy-font);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--paragraph);
+}
+
+.intro-main .card-sections .card-3 p {
+  font-family: var(--secendoy-font);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--paragraph);
+}
+
+/* Welcome.....End */
+/* Facts S */
+.fact-section {
+  background-color: var(--black);
+  margin: 70px 0 70px 0;
+  color: var(--white);
+}
+
+.fact-section .fact-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.fact-section .items {
+  margin: 80px 0;
+  text-align: center;
+}
+
+.fact-section .items i {
+  font-size: 50px;
+  color: var(--primary);
+  margin: 20px 0;
+}
+
+.fact-section .items h2 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.fact-section .items h3 {
+  font-size: 48px;
+  margin: 10px 0;
+  color: #bdb9cd;
+}
+
+/* Facts E */

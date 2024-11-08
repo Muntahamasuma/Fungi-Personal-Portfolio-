@@ -1,0 +1,48 @@
+/* Banner Css S */
+.banner-section{
+  background-color: var(--black);
+  height: 100vh;
+  padding: 250px 0;
+  .main{
+    display: flex;
+    align-items: center;
+    gap: 190px;
+  }
+  .text{
+    color: var(--white);
+    
+  }
+  .image{
+    width: 500px; 
+   }
+   img{
+    width: 100%; 
+   }
+   .text{
+    h3{
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 29px;
+    }
+    h1{
+      font-size: 90px;
+      font-weight: 700;
+      line-height: 108px;
+      span{
+        color: var(--primary);
+      }
+    }
+    p{
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      font-family: var(--secendoy-font);
+    }
+   }
+   .button-grp {
+    .theme-btn{
+      margin-left: 10px;
+    }
+   }
+}
+/* Banner Css E */

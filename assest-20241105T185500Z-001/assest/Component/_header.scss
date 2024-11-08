@@ -1,0 +1,109 @@
+
+/* Header CSS S */
+.header-section{
+ width: 100%;
+ background-color: var(--black);
+ padding: 28px 0;
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 999;
+ .header-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  .social-icon{
+    position: relative;
+    margin-left: 20px;
+    
+}
+.social-icon::after{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 1px;
+  height: 25px;
+  content: "";
+  background-color: #f8f8ff;
+}
+.social-icon a {
+margin-left: 20px;
+font-size: 18px;
+color: var(--white);
+}
+&:hover{
+  a:hover {
+    color: var(--primary);
+}
+}
+}
+.menu-item {
+  ul {
+    li {
+      margin-left: 35px;
+      position: relative;
+      display: inline-block;
+      
+    
+    }
+    a{
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 27px;
+      color: var(--white);
+  }
+  &:hover{
+    a{
+      color: var(--primary);
+  }
+  }
+    .sub-menu{
+      position: absolute;
+      background-color: var(--white);
+      width: 250px;
+      visibility: hidden;
+      transition: var(--transition);
+      opacity: 0;
+  }
+  &:hover{
+    .sub-menu{
+      opacity: 1;
+      visibility: visible;
+  }
+  }
+  .sub-menu {
+    li {
+        margin-left: 0;
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #e8e8e8;
+      a{
+        color: var(--black);
+        /* margin-top: 10px; */
+        font-size: 16px;
+        padding: 10px 20px;
+        display: block;
+    }
+    &:hover{
+      a{
+        background-color: var(--primary);
+        color: var(--white);
+        border-bottom: 1px solid #fff;
+    }
+    
+    }
+    }
+    
+  }
+  }
+}
+}
+
+/* Header CSS E */

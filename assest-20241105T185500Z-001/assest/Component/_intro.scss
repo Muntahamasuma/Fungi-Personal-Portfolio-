@@ -1,0 +1,97 @@
+/* Welcome.....Start */
+main{
+  margin: 100px 0;
+}
+
+.intro-main {
+  .card-sections{
+    display: flex;
+    gap: 15px;
+    .card-1{
+      border: 1px solid var(--paragraph);
+      border-radius: 10px;
+      padding: 20px;
+      i{
+        font-size: 50px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+      &:hover{
+        i:hover{
+          color: var(--primary);
+        }
+      }
+      h2{
+        color: var(--black);
+        font-size: 28px;
+        font-weight: 600;
+        margin: 30px 0 20px 0;
+      }
+      p{
+        font-family: var(--secendoy-font);
+         font-size: 20px;
+         line-height: 24px;
+         font-weight: 400;
+         color: var(--paragraph);
+       }
+    }
+    .card-2{
+      border: 1px solid var(--paragraph);
+      border-radius: 10px;
+      padding: 20px;
+      i{
+        font-size: 50px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+      &:hover{
+        i:hover{
+          color: var(--primary);
+        }
+      }
+      h2{
+        color: var(--black);
+        font-size: 28px;
+        font-weight: 600;
+        margin: 30px 0 20px 0;
+      }
+      p{
+        font-family: var(--secendoy-font);
+         font-size: 20px;
+         line-height: 24px;
+         font-weight: 400;
+         color: var(--paragraph);
+       }
+    }
+    .card-3{
+      border: 1px solid var(--paragraph);
+      border-radius: 10px;
+      padding: 20px;
+      i{
+        font-size: 50px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+      &:hover{
+        i:hover{
+          color: var(--primary);
+        }
+      }
+      h2{
+        color: var(--black);
+        font-size: 28px;
+        font-weight: 600;
+        margin: 30px 0 20px 0;
+      }
+      p{
+        font-family: var(--secendoy-font);
+         font-size: 20px;
+         line-height: 24px;
+         font-weight: 400;
+         color: var(--paragraph);
+       }
+    }
+  }
+}
+
+/* Welcome.....End */

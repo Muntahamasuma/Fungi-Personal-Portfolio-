@@ -1,0 +1,31 @@
+/* Facts S */
+.fact-section{
+  background-color: var(--black);
+  margin: 70px 0 70px 0;
+  color: var(--white);
+  .fact-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    .items{
+      margin: 80px 0;
+      text-align: center;
+      i{
+        font-size: 50px;
+        color: var(--primary);
+        margin: 20px 0;
+      }
+      h2{
+        font-size: 28px;
+        margin: 10px 0;
+      }
+      h3{
+        font-size: 48px;
+        margin: 10px 0;
+        color: #bdb9cd;
+      }
+    }
+  }
+}
+ 
+/* Facts E */
